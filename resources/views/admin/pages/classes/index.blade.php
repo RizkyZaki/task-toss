@@ -9,7 +9,7 @@
                     <div class="nk-block-head-content">
                         <h3 class="nk-block-title page-title">Kelas</h3>
                         <div class="nk-block-des text-soft">
-                            <p>Kelola kelas & bergabung menggunakan kode.</p>
+                            <p>Kelola kelas & bergabung menggunakan kode</p>
                         </div>
                     </div>
                     <div class="nk-block-head-content">

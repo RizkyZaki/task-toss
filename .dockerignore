@@ -1,0 +1,40 @@
+# Git repository files - tidak diperlukan di dalam container
+.git
+.gitignore
+
+# Docker Compose file - tidak perlu di-copy ke dalam image
+docker-compose.yml
+docker-compose.*.yml
+
+# Dockerfile tidak perlu di-copy ke dalam image (sudah digunakan untuk build)
+docker/*/Dockerfile
+
+# Environment files - akan di-mount sebagai volume atau di-set via environment variables
+.env
+.env.*
+node_modules/
+vendor/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+
+storage/app/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+bootstrap/cache/*
+
+.phpunit.result.cache
+phpunit.xml
+
+README.md
+*.md
+
+!docker/php/php.ini
+!docker/nginx/default.conf
